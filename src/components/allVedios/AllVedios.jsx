@@ -3,9 +3,6 @@ import "./allVedios.scss";
 import { Link } from "react-router-dom";
 
 export class AllVedios extends Component {
-  state = {
-    imgCondition: "",
-  };
   render() {
     const {videoId, title, author, thumbnails } = this.props;
     return (
