@@ -1,0 +1,29 @@
+.navLeftList{
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+  align-items: center;
+  gap: 10px;
+  .navLeftItem{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+    width: 100%;
+    a{
+      width: 86%;
+      padding: 10px 0px;
+      border-radius: 4px;
+      &:hover {
+        background: rgba(128, 128, 128, 0.425);
+      }
+    }
+    p{
+      font-size: 13px;
+      padding-top: 10px;
+    }
+    i{
+      font-size: 20px;
+    }
+  }
+}

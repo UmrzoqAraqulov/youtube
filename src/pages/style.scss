@@ -1,0 +1,7 @@
+.header {
+  padding: 0px 50px 130px 0px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(3,32%);
+  row-gap: 20px;
+}

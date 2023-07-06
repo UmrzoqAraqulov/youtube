@@ -1,0 +1,46 @@
+.navList{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+
+  .navInput{
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    width: 40%;
+    input{
+      width: 90%;
+      border: none;
+      outline: none;
+      color: black;
+      padding: 0px 10px;
+      font-size: 18px;
+    }
+    i{
+      color: black;
+    }
+  }
+
+  .navItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    i{
+      cursor: pointer;
+    }
+    .userImg{
+      img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+    }
+  }
+  .navItem1{
+    gap: 30px;
+  }
+}

@@ -1,0 +1,29 @@
+header {
+  width: calc(100vw - 17px);
+  height: 60px;
+  background: #0f0f0f;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+aside {
+  position: fixed;
+  background: #0f0f0f;
+  left: 0;
+  top: 0;
+  width: 80px;
+  height: 100vh;
+}
+
+main {
+  position: fixed;
+  top: 0px;
+  left: 80px;
+  height: 100vh;
+  width: calc(100vw - 80px);
+  background: #0f0f0f;
+  overflow-y: scroll;
+  padding: 100px 30px 50px;
+}
